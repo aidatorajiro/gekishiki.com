@@ -1,0 +1,35 @@
+body{
+	background-color:#000000;
+	color:#FFFFFF;
+	text-align:center;
+	font-family:Helvetica, sans-serif;
+}
+a{
+	color:#FFFFFF;
+	margin:1px;
+	border:none;
+	text-decoration:none;
+}
+a:hover{
+	color:#FFFFFF;
+	border:1px #FFFFFF solid;
+}
+#menu{
+	margin:auto;
+}
+#menu a{
+	color:#66CCCC;
+	background-color:#9A3434;
+	margin:20px;
+	padding:10px;
+	border:none;
+	border-radius:50px;
+}
+#menu a:hover{
+	color:#9A3434;
+	background-color:#66CCCC;
+	margin:20px;
+	padding:10px;
+	border:none;
+	border-radius:50px;
+}
