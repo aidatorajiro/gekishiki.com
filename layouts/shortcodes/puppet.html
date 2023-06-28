@@ -1,0 +1,5 @@
+{{ range $number, $element := $.Page.Params.puppet_data }}
+    <img src="/puppets/ningyou{{add 1 $number}}.jpg"></img>
+    <h3>{{index $element 0}}</h3>
+    <h4>{{index $element 1}}</h4>
+{{ end }}

@@ -29,3 +29,15 @@ Temporary Items
 .apdisk
 
 
+### https://raw.github.com/github/gitignore/db0ef78b5ad1d3caf4cab3240467562360885613/community/Golang/Hugo.gitignore
+
+# Generated files by hugo
+/public/
+/resources/_gen/
+
+# Executable may be added to repository
+hugo.exe
+hugo.darwin
+hugo.linux
+
+
