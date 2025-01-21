@@ -1,4 +1,4 @@
-locate=location.href.match(/([^/]+)(\.html)?$/);
+locate=location.href.match(/([^/]+)(\.html)?$/)[1];
 window.onload=function(){
 	html='<table>';
 	html+='<tr>';
